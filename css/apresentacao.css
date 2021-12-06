@@ -1,0 +1,40 @@
+footer, header{
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+	height: 20vh;
+	background-color: #1A968E;
+}
+.apr{
+	color: white;
+	font-size: 3rem;
+	margin: auto;
+}
+body{
+	display: block;
+	width: 100vw;
+	align-items: center;
+	text-decoration: none;
+}
+p{
+	font-family: calibri;
+	font-size: 1.3rem;
+	text-align: center;
+}
+.img-a{
+	display: flex;
+	width: 100vw;
+	justify-content: space-around;
+	margin: 10vh auto;
+
+}
+.img-ap{
+	width: 80vw;
+	height: 92vh;
+	background-color: beige;
+}
+.audio{
+	display: flex;
+	justify-content: space-around;
+	margin: 5vh auto;
+}

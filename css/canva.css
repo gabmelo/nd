@@ -1,0 +1,46 @@
+
+p{
+	font-family: calibri;	
+}
+
+body{
+	width: 100vw;
+	display: block;
+	margin: none;
+}
+	.canva-1{
+		overflow-x: hidden;
+	}
+	.canva-txt{
+	display: block;
+	font-size: 1.3rem;
+	}
+	.but-1-canva-sec{
+		display: flex;
+		justify-content: space-around;
+	}
+.canva-txt p{
+	text-align: center;
+}
+.but-1{
+		display: inline-block;
+		width: 20vw;
+		height: 7vw;
+		background-color: #1A968E;
+		font-family: calibri;
+		font-size: 5vh;
+		border: none;
+		border-radius: 15px;
+		margin: auto;		
+	}	
+
+	.but-1:hover{
+		-moz-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+		box-shadow: 2px 2px 2px 2px #000000;
+	}
+	.but-a{
+		text-decoration: none;
+		color: #000000;
+	}

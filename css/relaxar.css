@@ -1,0 +1,31 @@
+body{
+	display: block;
+	width: 100vw;
+	align-items: center;
+}
+.center{
+	text-align: center;
+}
+p{
+	font-family: calibri;
+	font-size: 1.3rem;
+	text-align: justify;
+	margin: 4vh 3vw;
+}
+footer, header{
+	display: block;
+	width: 100vw;
+	height: 20vh;
+	background-color: #1A968E;
+}
+.audio{
+	display: flex;
+	justify-content: space-around;
+	margin: 5vh auto;
+}
+.video{
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5vh auto;
+}
