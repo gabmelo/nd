@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" href="img/gabriel.ico">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>GABRIEL</title>
+		<link rel="stylesheet" type="text/css" href="css/canva.css">
+	</head>
+	<body>
+		<section class="canva-1">
+			<canvas id="quadro" style="background:white; border-bottom: 10px solid #1A968E;"></canvas>
+			<script type="text/javascript">
+				window.onload = function () {
+		       
+				var quadro = document.getElementById("quadro");
+				quadro.setAttribute("width", 2000);
+				quadro.setAttribute("height", 300);
+
+				var ctx = quadro.getContext("2d");
+
+				var desenhando = false;
+				quadro.onmousedown = function (evt) {
+			   		ctx.moveTo(evt.clientX, evt.clientY);
+			    	desenhando = true;
+				}
+				quadro.onmouseup = function () {
+				    desenhando = false;
+				}
+				quadro.onmousemove = function (evt) {
+			    if (desenhando) {
+			        ctx.lineTo(evt.clientX, evt.clientY);
+			        ctx.stroke();
+			    	}
+				}}
+			</script>
+		</section>
+		<section class="canva-txt">
+			<p>FAÇA UM DESENHO LIVRE NO QUADRO ACIMA. EM SEGUIDA, FAÇA O MESMO DESENHO EM UMA FOLHA DE PAPEL.</p>
+			<P><b>QUAL TECNOLOGIA MELHOR ATENDEU SUAS EXPECTATIVAS?</b></P>
+		</section>
+		<section class="but-1-canva-sec">
+				<button class="but-1"><a href="digital.html" class="but-a">DIGITAL</a></button>
+				<button class="but-1 but-1-canva"><a href="analogica.html" class="but-a">ANALÓGICA</a></button>
+				<button class="but-1 but-1-canva"><a href="tecnologia.html" class="but-a">PAPEL É TECNOLOGIA?</a></button>
+		</section>
+		
+	</body>
+</html>
